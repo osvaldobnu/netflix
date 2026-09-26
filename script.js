@@ -79,3 +79,18 @@ mudaBanner();
 
 // Chame esse método a cada 3 segundo
 setInterval(mudaBanner, 3000);
+
+function mudaTema() {
+    document.body.classList.toggle("light");
+
+    const icone = document.querySelector("#botao i");
+
+    // Valida se ta com tema claro ou escuro
+    if(document.body.classList.contains("light")){
+        icone.classList.remove('fa-sun');
+        icone.classList.add('fa-moon');
+    } else {
+        icone.classList.remove('fa-moon');
+        icone.classList.add('fa-sun');
+    }
+}

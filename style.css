@@ -87,3 +87,8 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+.light {
+    background: white;
+    color : black;
+}

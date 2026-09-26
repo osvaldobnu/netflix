@@ -9,6 +9,7 @@
     <title>Netflix</title>
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 </head>
 
 <body>
@@ -19,7 +20,9 @@
         <div class="actions">
             <input type="text" id="search" placeholder="Buscar...">
             <!-- Depois colocar método -->
-            <button>Tema Escuro</button>
+            <button id="botao" onclick="mudaTema()" >
+                <i class="fa-solid fa-sun" ></i>
+            </button>
         </div>
     </header>
 
